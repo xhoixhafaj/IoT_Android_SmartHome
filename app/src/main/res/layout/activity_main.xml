@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingRight="0dp"
+    android:background="@color/smart"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/smart"
+        android:id="@+id/smartImage"
+        android:background="@color/smart"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smartImage"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/Terms"
+        android:background="@color/smart"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Home"
+            android:textSize="100dp"
+            android:id="@+id/smartText1"
+            android:fontFamily="@font/amsterdam"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept all the services and terms"
+        android:checked="false"
+        android:layout_below="@+id/Terms"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:id="@+id/TermsCheckBox"
+       />
+
+    <Button
+        android:id="@+id/SmartButtonContinue"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TermsCheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:text="Continue"
+        android:textColor="@color/black"
+        android:theme="@style/Theme.Challenge1app1" />
+
+
+</RelativeLayout>
+
+

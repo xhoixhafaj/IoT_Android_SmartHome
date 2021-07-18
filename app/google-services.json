@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145184942123",
+    "project_id": "tryingtolearn-487e1",
+    "storage_bucket": "tryingtolearn-487e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145184942123:android:d0d8d34d96f4b6bc5c626e",
+        "android_client_info": {
+          "package_name": "com.cheatcodesexample.fo.challenge1app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145184942123-d4qm78ulj5d2usivbt0mbp4b3bj204qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPM6CQgZ1_SVboxM74qr0Y2A0ZVWfe1KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145184942123-d4qm78ulj5d2usivbt0mbp4b3bj204qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
